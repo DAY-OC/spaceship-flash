@@ -1,4 +1,4 @@
-document.body.style.backgroundColor = 'darkgreen';
+document.body.style.backgroundColor = 'green';
 
 
 document.querySelector('#button').addEventListener('click', () => {
@@ -23,7 +23,7 @@ document.querySelector('#button').addEventListener('click', () => {
             }
             i++;
         } else {
-            document.body.style.backgroundColor = 'darkgreen';
+            document.body.style.backgroundColor = 'green';
             clearInterval(interval);
         }
     }, 500);
